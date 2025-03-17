@@ -1,0 +1,170 @@
+.mailing{
+    border: 2px solid;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.email{
+    display: flex;
+    gap: 40px;
+}
+.phone-number{
+    display: flex;
+    gap: 40px;
+}
+nav{
+    text-align: center;
+    text-decoration: none;
+}
+#moving-image{
+    height: 670px;
+    width: 85%;
+}
+.moving-image{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-bottom: 90px;
+    margin-top: 40px;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+     width: 50%;
+}
+.about-us{
+    display: flex;
+    gap: 120px;
+    padding: 0px 150px;
+}
+#packages-image{
+    height: 450px;
+    margin-bottom: 40px;
+
+
+}
+
+.year{
+    display: flex;
+    gap: 40px;
+}
+.ipsum-logos{
+    display: flex;
+    gap: 60px;
+    padding: 0px 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.services-title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+}
+.services{
+    display: flex;
+    gap: 150px;
+    padding: 0px 100px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+
+}
+.How_we_work{
+    display: flex;
+    gap: 150px;
+    padding: 0px 100px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+}
+.video{
+    text-align: center;
+    color: orange;
+    position: relative;
+}
+.play-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.verified-company{
+    position: relative;
+    text-align: center;
+    padding: 0px 100px;
+
+    
+    
+
+}
+.verified{
+    /* color: orange; */
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    background-color:white;
+    width: 40%;
+
+}
+
+.Moving-business{
+    display: flex;
+    gap: 40px;
+
+}
+#book_online{
+    text-align: center;
+
+}
+.form{
+    display: flex;
+    padding: 30px;
+    gap: 100px;
+    
+}
+#moving_type{
+    height: 20px;
+}
+#from{
+    height: 20px;
+}
+#home_size{
+    height: 20px;
+}
+#to{
+    height: 20px;
+}
+#date{
+    height: 20px;
+}
+
+.form_labels{
+    display: flex;
+    gap: 100px;
+    background-color: blue;
+}
+.form_left{
+    background-color: orange;
+}
+.testimonials{
+    display: flex;
+    gap: 120px;
+
+}
+#blog_images{
+    height: 250px;
+    width: 40%;
+}
