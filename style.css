@@ -25,7 +25,7 @@ nav{
 }
 #moving-image{
     height: 670px;
-    width: 85%;
+    width:100%;
 }
 .moving-image{
     text-align: center;
@@ -35,7 +35,7 @@ nav{
     margin-top: 40px;
 }
 
-.centered{
+.centered_text{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,6 +43,13 @@ nav{
     display: flex;
     justify-content: space-between;
      width: 50%;
+     
+}
+#submit_button{
+    height: 50px;
+    width: 50%;
+    color: white;
+    background-color: orange;
 }
 .about-us{
     display: flex;
@@ -132,39 +139,174 @@ nav{
 .form{
     display: flex;
     padding: 30px;
-    gap: 100px;
+    height: 300px;
+    color: white;
     
 }
 #moving_type{
-    height: 20px;
+    height: 30px;
 }
 #from{
-    height: 20px;
+    height: 30px;
 }
 #home_size{
-    height: 20px;
+    height: 30px;
 }
 #to{
-    height: 20px;
+    height: 30px;
 }
 #date{
-    height: 20px;
+    height: 30px;
 }
 
 .form_labels{
     display: flex;
-    gap: 100px;
+    gap: 170px;
     background-color: blue;
+    width: 100%;
+    padding: 20px 80px;
 }
 .form_left{
     background-color: orange;
+    width: 40%;
+    padding: 20px 0px 20px 150px; 
+
 }
 .testimonials{
     display: flex;
     gap: 120px;
+    padding: 70px 150px;
+
+}
+
+#quotes{
+    border: 2px solid;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    background-color: blue;
 
 }
 #blog_images{
-    height: 250px;
-    width: 40%;
+    height: 290px;
+    width:90%;
 }
+.articles{
+    display: flex;
+    padding: 0px 150px;
+
+}
+
+.blog_left{
+   
+    color: white;
+    position: relative;
+    margin-bottom: 90px;
+    margin-top: 40px;
+
+
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: larger;
+
+}
+
+.blog_centre{
+   
+    color: white;
+    position: relative;
+    margin-bottom: 90px;
+    margin-top: 40px;
+
+
+}
+
+.blog_right{
+   
+    color: white;
+    position: relative;
+    margin-bottom: 90px;
+    margin-top: 40px;
+
+
+}
+
+
+.headings{
+    text-align: center;
+}
+
+.discover{
+    display: flex;
+    gap: 150px;
+    padding: 100px 150px;
+    background-color: orange;
+    font-size: larger;
+
+}
+
+#discover_button{
+    height: 70px;
+    width: 150%;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+#subscribe_button{
+    height: 70px;
+    width: 150%;
+    padding: 20px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+
+}
+#request_button{
+    height: 70px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+
+}
+
+.subcribe_form{
+    gap: 100px;
+    display: flex;
+    padding: 0px 40%;
+}
+
+#email{
+    height: 60px;
+    text-align: center;
+}
+
+.footer{
+    
+}
+.about{
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 10%;
+    padding: 15px 20%;
+}
+
+.copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#hr_line{
+    background-color: black;
+    color: white;
+}
+

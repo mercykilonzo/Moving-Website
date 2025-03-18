@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/4deca77054.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="mailing">
@@ -57,16 +58,16 @@
     </nav>
     
     <div class="moving-image">
-        <img src="https://www.honorcu.com/wp-content/uploads/2023/09/Mortgage-Down-Payment-Assistance.webp" id="moving-image">
-        <div class="centered">
+        <img src="https://img.freepik.com/premium-photo/portrait-young-woman-holding-box_1048944-11728640.jpg" id="moving-image">
+        <div class="centered_text">
             <i class="fa-solid fa-chevron-left"></i>
             <div>
                 <img src="images/image.png" alt="">
             <p> 
                 
-                SMOOTH MOVING FOR YOUR FAMILY <br>
-                Moving Strive to <br>
-                Make it Easy. <br>
+                <h1>SMOOTH MOVING FOR YOUR FAMILY <br>
+                    Moving Strive to <br>
+                    Make it Easy. <br></h1>
                 <button type="button" id="submit_button">GET STARTED</button>
             </p>
             </div>
@@ -144,7 +145,7 @@
             <div>
                 <img src="images/transport.jpeg" alt="">
                 <br>
-                <h3>Storage</h3>
+                <h3>Transport</h3>
                 <br>
                 <p>
                     Phase sit amet do <br>
@@ -157,7 +158,7 @@
             <div>
                 <img src="images/insurance.png" alt="">
                 <br>
-                <h3>Storage</h3>
+                <h3>Insurance</h3>
                 <br>
                 <p>
                     Phase sit amet do <br>
@@ -211,8 +212,6 @@
            <p><i class="fa-solid fa-circle-check"></i> Book survey at a time that suits you</p>
         
         </div>
-        <!-- <p>Don't hesitate, contact us for help and services.Book Online</p> -->
-
     </section>
 
     <p id="book_online">Don't hesitate, contact us for help and services.Book Online</p>
@@ -233,13 +232,13 @@
             <div class="form_labels">
                 <div> 
                     <label for="moving_type">Moving Type*</label>
-                    <br>
+                    <br> <br>
                     <input type="text" placeholder="Local" id="moving_type">
-                    <br>
+                    <br> <br>
                    <label for="from">From*</label>
                   <br>
                   <input type="text" id="from" placeholder="city,state">
-                  <br>
+                  <br> <br>
                   <label for="to">To*</label>
                   <br>
                   <input type="text" placeholder="city,state" id="to">
@@ -249,25 +248,25 @@
                 <label for="">Date</label>
                 <br>
                 <input type="data" placeholder="" id="date">
-                <br>
+                <br><br>
                   <label for="home_size">Home size*</label>
-                  <br>
+                  <br> <br>
                  <input type="text" id="home_size" placeholder="o">
                   <br> <br>
-                   <button>SEND REQUEST</button>
+                   <button id="request_button">SEND REQUEST</button>
             
         </div>
     </section>
 
 
     <section>
-        <div>
+        <div class="headings">
             <p>OUR TESTIMONIALS</p>
             <h1>What They Say</h1>
         </div>
       <div class="testimonials">
          <div>
-            <i class="fa-solid fa-quote-left"></i>
+            <i class="fa-solid fa-quote-left" id="quotes"></i>
             <p>I was impresed by the moling services, <br>
                 lorem ipsum is simply free text used by <br>
                 copytyping refreshing. Neque porro est qui<br> 
@@ -284,7 +283,7 @@
 
          </div>
          <div>
-            <i class="fa-solid fa-quote-left"></i>
+            <i class="fa-solid fa-quote-left" id="quotes"></i>
             <p>I was impresed by the moling services, <br>
                 lorem ipsum is simply free text used by <br>
                 copytyping refreshing. Neque porro est qui<br> 
@@ -301,7 +300,7 @@
 
          </div>
          <div>
-            <i class="fa-solid fa-quote-left"></i>
+            <i class="fa-solid fa-quote-left" id="quotes"></i>
             <p>I was impresed by the moling services, <br>
                 lorem ipsum is simply free text used by <br>
                 copytyping refreshing. Neque porro est qui<br> 
@@ -323,61 +322,120 @@
 
 
     <section>
-        <div>
+        <div class="headings">
             <p>NEWSLETTER SIGNUP</p>
             <h1>Join For New Updates</h1>
         </div>
-        <form action="">
-            <input type="email" placeholder="email address" id="email">
-            <button>SUBSCRIBE NOW</button>
+        <form class="subcribe_form">
+            <div><input type="email" placeholder="email address" id="email"></div>
+            <div><button id="subscribe_button">SUBSCRIBE NOW</button></div>
+            
         </form>
     </section>
 
     <section>
-        <div>
+        <div class="headings">
             <p>OUR BLOG</p>
             <h1>News & Articles</h1>
         </div>
-        <div>
-            <div>
+        <div class="articles">
+            <div class="blog_left">
                 <img src="images/news.jpg" alt="" id="blog_images">
-                <p>
-                    Admin comment (o) <br>
-                    Our Home<br> Entertainment has <br>Evolved Significantly
-
-                </p>
+                <div class="text">
+                    <p>
+                        Admin comment (o) <br>
+                       <b>Our Home<br> Entertainment has <br>Evolved Significantly</b>
+    
+                    </p> 
+                </div>
+                
             </div>
-            <div>
+            <div class="blog_centre">
                 <img src="images/news1.webp" alt="" id="blog_images">
-                <p>
-                    Admin comment (o)<br>
-                    Making a Choice <br>Between Moving <br>Companies
+                
+                <div class="text">
+                    <p>
+                        Admin comment (o)<br>
+                        <b>Making a Choice <br>Between Moving <br>Companies</b>
+    
+                    </p>
 
-                </p>
+                </div>
+                
             </div>
-            <div>
+            <div class="blog_right">
                 <img src="images/news2.jpeg" alt="" id="blog_images">
-                <p>
-                    Admin comment (o) <br>
-                    Baby Boomer and <br> Empty Nesters on <br> the Move
-
-                </p>
+                <div class="text">
+                    <p>
+                        Admin comment (o) <br>
+                        <b>Baby Boomer and <br> Empty Nesters on <br> the Move</b>
+    
+                    </p>
+                    
+                </div>
+               
             </div>
         </div>
         
     </section>
 
 
-    <section>
-        <div>
-            <p>Helping Over 250,000 Movers in the USA</p>
-            <button>DISCOVER MORE</button>
-        </div>
+    
+    <footer class="footer">
+           
 
+            <div class="discover">
+                <div >
+                    
+                </div>
+                <h2>Helping Over 250,000 Movers in the USA</h2>
 
+        
+                <div>
+                    <button id="discover_button">DISCOVER MORE</button>
+        
+                </div>
+        
+            </div>
 
-
-    </section>
+            <div class="about">
+                <div class="contact-info">
+                    <p>Phone<br> +8801714457298</p>
+                    <p>Address <br>Sylhet 3100 Bangladesh</p>
+                </div>
+                <div class="links">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">News & Blog</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Press Room</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="social_media">
+                    <a><i class="fab fa-twitter" id="twitter"></i></a>
+                    <a><i class="fab fa-facebook" id="fb"></i></a>
+                    <a><i class="fab fa-linkedin" id="in"></i></a>
+                    <a><i class="fab fa-youtube" id="yt"></i></a>
+                </div>
+            </div>
+            <hr id="hr_line">
+            <div class="copyright">
+                
+                &copy; Copyright 2024 by Riaad Arif.
+            </div>
+    </footer>
+    
 
 
 
